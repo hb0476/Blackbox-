@@ -3,8 +3,8 @@ body {
 }
 
 header {
- background-color: #003366;
- color: #ffffff;
+ background-color: #333;
+ color: #fff;
  padding: 10px;
 }
 
@@ -19,23 +19,23 @@ nav ul li {
 }
 
 nav ul li a {
- color: #ffffff;
+ color: #fff;
  text-decoration: none;
 }
 
 section {
- margin: 15px 0;
+ margin: 20px 0;
 }
 
 button {
- background-color: #003366;
- border: none;
- color: #ffffff;
- padding: 10px;
- margin-right: 10px;
-}
-
-button:hover {
+ background-color: #4CAF50;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
  cursor: pointer;
 }
 
@@ -45,10 +45,7 @@ table {
 }
 
 th, td {
- border: 1px solid #dddddd;
+ border: 1px solid black;
  padding: 8px;
  text-align: left;
 }
-
-th {
- background-color
